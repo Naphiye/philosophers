@@ -36,17 +36,24 @@ Ce projet permet de se familiariser avec :
 ## 🚀 Utilisation
 
 ### 1️⃣ Compilation
-Dans le répertoire du projet, lancer :  
+Dans le répertoire du projet, lancer : 
+```bash
 make  
-
+```
 Cela génère l’exécutable :  
-philo  
+``` bash
+./philo  
+```
 
 ### 2️⃣ Lancement de la simulation
+```bash
 ./philo number_of_philosophers time_to_die time_to_eat time_to_sleep [number_of_times_each_philosopher_must_eat]  
+```
 
 Exemple :  
+```bash
 ./philo 5 800 200 200  
+```
 
 Ce qui simule 5 philosophes, chacun ayant :  
 - 800ms avant de mourir s’il ne mange pas.  
@@ -54,7 +61,9 @@ Ce qui simule 5 philosophes, chacun ayant :
 - 200ms pour dormir.  
 
 ### 3️⃣ Exemple avec l’argument optionnel
+```bash
 ./philo 5 800 200 200 7  
+```
 
 Dans ce cas, la simulation s’arrête lorsque chaque philosophe a mangé au moins 7 fois.  
 
