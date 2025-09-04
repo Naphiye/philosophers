@@ -70,10 +70,19 @@ Dans ce cas, la simulation s’arrête lorsque chaque philosophe a mangé au moi
 ---
 
 ## 🛠️ Exemple de sortie
-Philosophe 1 est en train de manger  
-Philosophe 2 est en train de penser  
-Philosophe 3 est en train de dormir  
-Philosophe 4 est en train de manger  
-Philosophe 5 est en train de penser  
+(temps écoulé ms depuis le lancement du programme, id du philo, action) 
+2 1 is thinking
+3 2 is thinking
+4 3 is thinking
+4 4 is thinking
+5 5 is thinking
+7 1 has taken a fork
+7 1 has taken a fork
+7 1 is eating
+9 3 has taken a fork
+9 3 has taken a fork
+9 3 is eating
+10 5 has taken a fork
+
 ...  
 
